@@ -1,11 +1,11 @@
 # Site settings
 author: Elizabeth Fawcett
-title: 
+title: Classically Trained for Modern Problems
 header-img: img/home-bg.png
 email: elizabethfawcett47@gmail.com
 copyright_name: Elizabeth Fawcett
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Technical and Non-technical Talk
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  eannefawcett
