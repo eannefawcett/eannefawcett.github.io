@@ -1,20 +1,9 @@
-# Site settings
-author: Elizabeth Fawcett
-title: Classically Trained for Modern Problems
-header-img: img/home-bg.png
-email: elizabethfawcett47@gmail.com
-copyright_name: Elizabeth Fawcett
-description: > # this means to ignore newlines until "baseurl:"
-  Technical and Non-technical Talk
-baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: 
-github_username:  eannefawcett
+name: Classically Trained for Modern Problems
+url: https://eannefawcett.github.io/
+description: Technical and Non-technical Talk
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+permalink: /:year/:month/:day/:title/
+paginate: 25
 
-gems: [jekyll-paginate, jekyll-feed]
+gems: [jekyll-paginate]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
