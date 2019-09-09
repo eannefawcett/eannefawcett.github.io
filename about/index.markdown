@@ -2,6 +2,7 @@
 layout: default
 title: About Me
 external-url: https://eannefawcett.github.io/about
+paginator: About Me
 ---
 
 <img src="/images/eannefawcett_headshot.jpg" class="left" />
