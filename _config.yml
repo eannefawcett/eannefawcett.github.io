@@ -1,6 +1,6 @@
 name: Elizabeth Fawcett
 url: https://eannefawcett.github.io/
-description: Classically Trained for Modern Problems: Technical and Non-technical Talk
+description: Classically Trained for Modern Problems - Technical and Non-technical Talk
 
 permalink: /:year/:month/:day/:title/
 paginate: 25
