@@ -1,11 +1,12 @@
 ---
 layout: default
-title: About
+title: About Me
+external-url: https://eannefawcett.github.io/about
 ---
 
-This is where you would but a short bio, and/or a description of your site. It also serves as an example of how to set up a standalone page. For example:
+<img src="/images/eannefawcett_headshot.jpg" class="left" />
+Hello, my name is **Beth Fawcett**. I am a chemist and a biologist. I've worked in a molecular biology lab and have taught high school science in Texas. I have a passion for data analysis and am transitioning into a career in data science.
 
-<img src="/images/shakespeare.png" class="right" />
-**William Shakespeare** (26 April 1564 – 23 April 1616) was an English poet and playwright, widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's national poet and the "Bard of Avon". His extant works, including some collaborations, consist of about 38 plays, 154 sonnets, two long narrative poems, and a few other verses, the authorship of some of which is uncertain. His plays have been translated into every major living language and are performed more often than those of any other playwright.
+I was born and raised in the Hill Country, south of Austin and north of San Antonio. I attended college at Schreiner University where I graduated in 2014 with a Bachelor's of Science in Chemistry and a Bachelor's of Science in Biology. Post graduation I attended the University of North Texas Health Science Center in pursuit of a Doctorate of Osteopathy. I quickly learned that the path of medical doctor was not one that I wanted to pursue. I switched over from school to a lab job that was medical adjacent; we tested potential organ donors for infectious diseases. I decided through this experience that running a lab was a path that I could walk. I decided to invest in a Master's of Business Administration, which is still in progress. Due to a limited path for advancement in the lab I was working in, I trained to teach science at the high school level.
 
-Shakespeare was born and brought up in Stratford-upon-Avon. At the age of 18, he married Anne Hathaway—no, not *that* Anne Hathaway—with whom he had three children.
+My experiences in teaching, and the connections that I've made with other teachers have led me to the pursuit of data science. Being in education gave me a view of what our future is going to look like. I need to learn how to code. In searching for a job as a chemist, I have found that my education in a singular discipline of science is in low demand. However, the skill set that a chemist has when doing scientific study is in high demand. The current market doesn't recognize that a chemist has the skill of data analysis, so I am training in data science and updating my skill set garnered from turn of the century technology. I look forward to the update.
