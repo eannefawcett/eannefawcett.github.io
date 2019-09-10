@@ -8,5 +8,3 @@ paginate: 25
 
 gems: [jekyll-paginate]
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
-
-# style: [colors-dark.css]
