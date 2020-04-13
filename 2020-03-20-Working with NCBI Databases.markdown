@@ -18,6 +18,7 @@ First, register your email and project tool with NCBI. This can be done by
 emailing their office at 	eutilities@ncbi.nlm.nih.gov with the following information:
 - email
 - tool.
+
 Your email should be the email with which you are accessing the database. All
 communications about your project should go through this email. The tool is something
 that you make up, a project name, something that uniquely identifies what you are
