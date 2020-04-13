@@ -43,39 +43,30 @@ with an API key.
 
 ```
 
-def get_ncbi_data(api, email, tool, database, ids):
+from Bio import Entrez
 
-    """To get data from the ncbi blast data base given:
-    an API key,
-    an email, must be on file with ncbi,
-    a tool, must be on file with ncbi,
-    the database name to search, and
-    the ids to search by in list format."""
+import time
 
-    from Bio import Entrez
+Entrez.api_key = api
 
-    import time
+Entrez.email = email
 
-    Entrez.api_key = api
+Entrez.tool = tool
 
-    Entrez.email = email
+print('Searching')
 
-    Entrez.tool = tool
+time.sleep(10)
 
-    print('Searching')
+search_results = Entrez.read(Entrez.epost(database, id=",".join(ids)))
 
-    time.sleep(10)
+time.sleep(1)
 
-    search_results = Entrez.read(Entrez.epost(database, id=",".join(ids)))
+webenv = search_results["WebEnv"]
 
-    time.sleep(1)
+query_key = search_results["QueryKey"]
 
-    webenv = search_results["WebEnv"]
+print('Fetching Results')
 
-    query_key = search_results["QueryKey"]
+results = Entrez.read(Entrez.efetch(db=database, webenv=webenv, query_key=query_key, retmode='xml'))
 
-    print('Fetching Results')
-
-    results = Entrez.read(Entrez.efetch(db=database, webenv=webenv, query_key=query_key, retmode='xml'))
-
-    ```
+```
