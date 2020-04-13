@@ -44,6 +44,7 @@ with an API key.
 ```
 
 def get_ncbi_data(api, email, tool, database, ids):
+
     """To get data from the ncbi blast data base given:
     an API key,
     an email, must be on file with ncbi,
@@ -75,4 +76,6 @@ def get_ncbi_data(api, email, tool, database, ids):
 
     print('Fetching Results')
 
-    results = Entrez.read(Entrez.efetch(db=database, webenv=webenv, query_key=query_key, retmode='xml'))```
+    results = Entrez.read(Entrez.efetch(db=database, webenv=webenv, query_key=query_key, retmode='xml'))
+
+    ```
