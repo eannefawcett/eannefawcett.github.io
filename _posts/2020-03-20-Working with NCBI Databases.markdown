@@ -19,6 +19,8 @@ emailing their office at 	eutilities@ncbi.nlm.nih.gov with the following informa
 - email
 - tool.
 
+# Registration
+
 Your email should be the email with which you are accessing the database. All
 communications about your project should go through this email. The tool is something
 that you make up, a project name, something that uniquely identifies what you are
@@ -27,8 +29,12 @@ while you are accessing the database.
 Do not access the database before receiving a confirmation email from NCBI that
 you are registered for use.
 
+# API
+
 Second, while you are waiting to hear back, you can register for an API key after
 creating an NCBI account. This API key will allow you to access the faster.
+
+# Data Usage Restraints
 
 Third, follow instructions about database usage so as to be courteous to all who
 are accessing the database. NCBI has posted some rules about usage, along with
