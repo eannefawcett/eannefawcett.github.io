@@ -41,7 +41,9 @@ to ten times per second.
 I've included a code snippet showing how to set this up for multiple batches,
 with an API key.
 
-```def get_ncbi_data(api, email, tool, database, ids):
+```
+
+def get_ncbi_data(api, email, tool, database, ids):
     """To get data from the ncbi blast data base given:
     an API key,
     an email, must be on file with ncbi,
@@ -74,5 +76,3 @@ with an API key.
     print('Fetching Results')
 
     results = Entrez.read(Entrez.efetch(db=database, webenv=webenv, query_key=query_key, retmode='xml'))```
-
-    
