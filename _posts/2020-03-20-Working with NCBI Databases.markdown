@@ -40,6 +40,7 @@ to ten times per second.
 
 I've included a code snippet showing how to set this up for multiple batches,
 with an API key.
+
 ```def get_ncbi_data(api, email, tool, database, ids):
     """To get data from the ncbi blast data base given:
     an API key,
@@ -47,16 +48,31 @@ with an API key.
     a tool, must be on file with ncbi,
     the database name to search, and
     the ids to search by in list format."""
+
     from Bio import Entrez
+
     import time
+
     Entrez.api_key = api
+
     Entrez.email = email
+
     Entrez.tool = tool
+
     print('Searching')
+
     time.sleep(10)
+
     search_results = Entrez.read(Entrez.epost(database, id=",".join(ids)))
+
     time.sleep(1)
+
     webenv = search_results["WebEnv"]
+
     query_key = search_results["QueryKey"]
+
     print('Fetching Results')
+
     results = Entrez.read(Entrez.efetch(db=database, webenv=webenv, query_key=query_key, retmode='xml'))```
+
+    
