@@ -5,7 +5,7 @@ external-url: https://eannefawcett.github.io/about
 paginator: About Me
 ---
 
-<img src="/images/eannefawcett_headshot.jpg" class="left" />
+<img src="/images/eannefawcett_headshot.jpg" class="left" width="400px" />
 Hello, my name is **Beth Fawcett**. I am a chemist and a biologist. I've worked in a molecular biology lab and have taught high school science in Texas. I have a passion for data analysis and am transitioning into a career in data science.
 
 I was born and raised in the Hill Country, south of Austin and north of San Antonio. I attended college at Schreiner University where I graduated in 2014 with a Bachelor's of Science in Chemistry and a Bachelor's of Science in Biology. Post graduation I attended the University of North Texas Health Science Center in pursuit of a Doctorate of Osteopathy. I quickly learned that the path of medical doctor was not one that I wanted to pursue. I switched over from school to a lab job that was medical adjacent; we tested potential organ donors for infectious diseases. I decided through this experience that running a lab was a path that I could walk. I decided to invest in a Master's of Business Administration, which is still in progress. Due to a limited path for advancement in the lab I was working in, I trained to teach science at the high school level.
