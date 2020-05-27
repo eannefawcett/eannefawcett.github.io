@@ -6,8 +6,6 @@ categories: technical, data science, graph interpretation
 paginator: Analysis Interpretation of Cleaning Overview
 ---
 
-# Analysis Interpretation for Cleaning Overview
-
 I wanted to share the technical details I used to generate an article about cleaning methods for another site. The article summarizes the primary ways to address household cleaning for bacteria and viruses. The cleaning necessary is different, and spoiler alert, cleaning for viruses requires extra steps. This article will explore how I arrived at that conclusion by evaluating the content in each article reviewed. The content evaluation is mostly comprised of looking at graphs. To protect the copyrights of the original content creators, I have linked to the original articles rather than embedding the images within the article. After all, they did spend a lot of time and funding generating the data that we will be discussing today. It doesn't hurt anyone to click on a link to see what's being discussed.
 
 # [Floor cleaning: effect on bacteria and organic materials in hospital rooms][article1]
@@ -40,7 +38,11 @@ This extent of analysis done in this study shows that bleach and treatment group
 
 I'm not sure that this is the most through analysis that could have been completed for this study. The sample size is small, and a non-parametric test, a Mann Whitney U specifically, would give more weight to the hypothesis that a store bought wipe will assist in controlling the spread of bacteria. To really hammer home this point, an ANOVA could have been completed. This would actually order the different treatment groups in terms of effectiveness instead of allowing the user to guess based on the visuals present, and this approach would account for the variation present in the mean standard error.
 
-However, the background knowledge that bleach, which is the type of wipe used in treatment group three, is known to breakdown a lipid bilayer goes a long way in supporting the weaker statistics seen in this article. Bleach is basic, with a pH greater than seven, and causes the bonds the bind a lipid bilayer together to break apart. Lipid bilayers exist as the outside layer of all cells, including bacterial cells. So the findings that bleach and treatment group three are effective in lowering the percentage of CFUs is not surprising. What really elevates this study is that the authors evaluated smooth surfaces compared to rough or uneven surfaces. It is in this comparison that the home made bleach with a gauze rag has the most stark effect on remaining bacteria, taking the presence of Staph. aureus down to zero, with no error bar present. This is ultimately, why I am confident in relaying the information that creating your own bleach solution at home, and cleaning with a cotton cloth that can soak the area needing to be cleaned, will powerfully protect against bacteria. 
+However, the background knowledge that bleach, which is the type of wipe used in treatment group three, is known to breakdown a lipid bilayer goes a long way in supporting the weaker statistics seen in this article. Bleach is basic, with a pH greater than seven, and causes the bonds the bind a lipid bilayer together to break apart. Lipid bilayers exist as the outside layer of all cells, including bacterial cells. So the findings that bleach and treatment group three are effective in lowering the percentage of CFUs is not surprising. What really elevates this study is that the authors evaluated smooth surfaces compared to rough or uneven surfaces. It is in this comparison that the home made bleach with a gauze rag has the most stark effect on remaining bacteria, taking the presence of Staph. aureus down to zero, with no error bar present. This is ultimately, why I am confident in relaying the information that creating your own bleach solution at home, and cleaning with a cotton cloth that can soak the area needing to be cleaned, will powerfully protect against bacteria.
+
+# [Bacteria on smartphone touchscreens in a German university setting and evaluation of two popular cleaning methods using commercially available cleaning products][article4]
+
+This article's [full text][article4] was made available for free on the publisher's website at the time of writing this article.
 
 # References
 
@@ -65,6 +67,8 @@ However, the background knowledge that bleach, which is the type of wipe used in
 [article3]: https://www.ajicjournal.org/article/S0196-6553(15)00795-6/fulltext
 [article3_full_text]: http://www.processcleaningsolutions.com/pdf/efficacyofdisinfectingwipeshighlighted.pdf
 [article4]: https://link.springer.com/article/10.1007/s12223-014-0350-2
+[article4_figure]: https://link.springer.com/article/10.1007/s12223-014-0350-2/figures/1
+[article4_table]: https://link.springer.com/article/10.1007/s12223-014-0350-2/tables/1
 [article5]: https://aem.asm.org/content/78/9/3037.full
 [article6]: https://aem.asm.org/content/78/21/7769.full
 [article7]: https://www.journalofhospitalinfection.com/article/S0195-6701(04)00208-7/fulltext
