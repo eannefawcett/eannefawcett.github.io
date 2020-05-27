@@ -32,19 +32,30 @@ The analysis in this article actually looked very different. The measurement met
 
 # [Ability of cleaning-disinfecting wipes to remove bacteria from medical device surfaces][article3]
 
-This article's [full text][article3_full_text] was made available by a Canadian website, Process Cleaning Solutions. 
+This article's [full text][article3_full_text] was made available by a Canadian website, Process Cleaning Solutions.
 
+The statistics done in [this paper][article3_full_text] are pretty straight forward. A series of un-paired t-tests were used to determine if a testing group was significantly different from other testing groups. The results are displayed visually in bar graph form with the % CFU remaining on the y-axis, and the treatment on the x-axis. CFU stands for colony forming unit, which is basically, the number of bacterial cells in the remaining in sample after the treatment. This means that, the higher the bar in the graph, the more ineffective the treatment was. The bars also include error bars, which are said to be standard error of the mean. Between three and five repetitions of testing were performed for each type of treatment.
 
+This extent of analysis done in this study shows that bleach and treatment group three out-performed the other types of treatment groups on an unpredictable surface, and that a home bleach solution with a soaked gauze rag performs better than a store bought wipe.
 
+I'm not sure that this is the most through analysis that could have been completed for this study. The sample size is small, and a non-parametric test, a Mann Whitney U specifically, would give more weight to the hypothesis that a store bought wipe will assist in controlling the spread of bacteria. To really hammer home this point, an ANOVA could have been completed. This would actually order the different treatment groups in terms of effectiveness instead of allowing the user to guess based on the visuals present, and this approach would account for the variation present in the mean standard error.
+
+However, the background knowledge that bleach, which is the type of wipe used in treatment group three, is known to breakdown a lipid bilayer goes a long way in supporting the weaker statistics seen in this article. Bleach is basic, with a pH greater than seven, and causes the bonds the bind a lipid bilayer together to break apart. Lipid bilayers exist as the outside layer of all cells, including bacterial cells. So the findings that bleach and treatment group three are effective in lowering the percentage of CFUs is not surprising. What really elevates this study is that the authors evaluated smooth surfaces compared to rough or uneven surfaces. It is in this comparison that the home made bleach with a gauze rag has the most stark effect on remaining bacteria, taking the presence of Staph. aureus down to zero, with no error bar present. This is ultimately, why I am confident in relaying the information that creating your own bleach solution at home, and cleaning with a cotton cloth that can soak the area needing to be cleaned, will powerfully protect against bacteria. 
 
 # References
 
 [1)][article1] Andersen, B. M., Rasch, M., Kvist, J., Tollefsen, T., Lukkassen, R., Sandvik, L., & Welo, A. (2009). Floor cleaning: effect on bacteria and organic materials in hospital rooms.Journal of Hospital Infection,71(1), 57-65.
+
 [2)][article2] Bergen, L. K., Meyer, M., Høg, M., Rubenhagen, B., & Andersen, L. P. (2009). Spread of bacteria on surfaces when cleaning with microfibre cloths.Journal of hospital infection,71(2), 132-137.
+
 [3)][article3] Gonzalez, E. A., Nandy, P., Lucas, A. D., & Hitchins, V. M. (2015). Ability of cleaning-disinfecting wipes to remove bacteria from medical device surfaces.American journal of infection control,43(12), 1331-1335.
+
 [4)][article4] Egert, M., Späth, K., Weik, K., Kunzelmann, H., Horn, C., Kohl, M., & Blessing, F. (2015). Bacteria on smartphone touchscreens in a German university setting and evaluation of two popular cleaning methods using commercially available cleaning products.Folia microbiologica,60(2), 159-164.
+
 [5)][article5] Gibson, K. E., Crandall, P. G., & Ricke, S. C. (2012). Removal and transfer of viruses on food contact surfaces by cleaning cloths.Appl. Environ. Microbiol.,78(9), 3037-3044.
+
 [6)][article6] Tuladhar, E., Hazeleger, W. C., Koopmans, M., Zwietering, M. H., Beumer, R. R., & Duizer, E. (2012). Residual viral and bacterial contamination of surfaces after cleaning and disinfection.Appl. Environ. Microbiol.,78(21), 7769-7775.
+
 [7)][article7] Barker, J., Vipond, I. B., & Bloomfield, S. F. (2004). Effects of cleaning and disinfection in reducing the spread of Norovirus contamination via environmental surfaces.Journal of hospital infection,58(1), 42-49.
 
 [article1]: https://www.journalofhospitalinfection.com/article/S0195-6701(08)00389-7/fulltext
