@@ -12,7 +12,8 @@ Data Science is an art. Each decision in the process can lead to different resul
 In this first step, the data scientist begins to get a taste for what future work might be in store for a project. It starts with a business case, a question, a real world problem. Once the type of data to address the beginning case, question, problem is established, then it's time to acquire the dataset. For this discussion, I will be using the King's County Seattle Housing Prices dataset. It can be found [here][link1].
 
 
-```import pandas as pd
+```
+import pandas as pd
 df = pd.read_csv('kc_house_data.csv', index_col=0)
 ```
 
@@ -37,7 +38,8 @@ Initially upon first observation of the head, there are several things that begi
 First, let's consider 'NaN' values. To see how many values are present in the entire dataset, run the following code.
 
 
-```df.isna().sum()
+```
+df.isna().sum()
 ```
 
 
@@ -70,7 +72,8 @@ dtype: int64
 
 The three variables 'waterfront', 'view', and 'yr_renovated' have 'NaN' values. However, addressing these values can be done in various ways. While dropping the rows of data containing the 'NaN' values is an option, that means loosing potentially useful data. For this dataset, the number of 'NaN's for 'waterfront' represents 11% of the dataset, the number of 'NaN's for 'view' represents 0.29% of the dataset, and the number of 'NaN's for 'yr_renovated' represents over 17% of the dataset. This can be found with the following code:
 
-```print(df['waterfront'].isna().sum() / len(df['waterfront']))*100)
+```
+print(df['waterfront'].isna().sum() / len(df['waterfront']))*100)
 print(df['view'].isna().sum() / len(df['view']))*100)
 print(df['yr_renovated'].isna().sum() / len(df['yr_renovated']))*100)
 ```
@@ -79,7 +82,8 @@ print(df['yr_renovated'].isna().sum() / len(df['yr_renovated']))*100)
 Just dropping all of those rows would cause a loss of almost a third of the original data we started with. To maintain this data without changing the overall shape and distribution of the data present, 'NaN's can be replaced with the mean, median, or mode. This is called backfilling. For this dataset, I opted to use the mode. The 'waterfront' data is either a 0 or a 1, meaning yes waterfront or no waterfront. And if the home had been renovated, the 'yr_renovated' data provides the year, if the home had not been renovated, then a zero is filled in. In selecting mode to backfill, the most common occurrence of this type of data will be used. In the case of renovations and waterfront property, I feel like the mode, which is zero for both, will most likely describe the case of the property in any case. Since the 'view' 'NaN' data is such a small amount, I opted to drop those rows, although the same argument could be made to backfill with the mode for this data type.
 
 
-```df.loc[:,'waterfront'] = df.loc[:,'waterfront'].fillna(value=df.waterfront.mode())
+```
+df.loc[:,'waterfront'] = df.loc[:,'waterfront'].fillna(value=df.waterfront.mode())
 df.loc[:,'yr_renovated'] = df.loc[:,'yr_renovated'].fillna(value=df.yr_renovated.mode())
 df = df.dropna()
 # to ensure that all of the NaNs are gone
@@ -90,7 +94,8 @@ df.isna().sum()
 Now that this big concern established from viewing the head in the obtain step is addressed, some general information about the data needs to be evaluated.
 
 
-```df.info()
+```
+df.info()
 ```
 
 
