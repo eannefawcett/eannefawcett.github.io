@@ -18,7 +18,6 @@ df = pd.read_csv('kc_house_data.csv', index_col=0)
 ```
 
 
-```
 | id         | date       | price    | bedrooms | bathrooms | sqft_living | sqft_lot | floors | waterfront | view | condition | grade | sqft_above | sqft_basement | yr_built | yr_renovated | zipcode | lat     | long     | sqft_living15 | sqft_lot15 |
 |------------|------------|----------|----------|-----------|-------------|----------|--------|------------|------|-----------|-------|------------|---------------|----------|--------------|---------|---------|----------|---------------|------------|
 | 7129300520 | 10/13/2014 | 221900.0 | 3        | 1.00      | 1180        | 5650     | 1.0    | NaN        | 0.0  | 3         | 7     | 1180       | 0.0           | 1955     | 0.0          | 98178   | 47.5112 | -122.257 | 1340          | 5650       |
@@ -26,7 +25,6 @@ df = pd.read_csv('kc_house_data.csv', index_col=0)
 | 5631500400 | 2/25/2015  | 180000.0 | 2        | 1.00      | 770         | 10000    | 1.0    | 0.0        | 0.0  | 3         | 6     | 770        | 0.0           | 1933     | NaN          | 98028   | 47.7379 | -122.233 | 2720          | 8062       |
 | 2487200875 | 12/9/2014  | 604000.0 | 4        | 3.00      | 1960        | 5000     | 1.0    | 0.0        | 0.0  | 5         | 7     | 1050       | 910.0         | 1965     | 0.0          | 98136   | 47.5208 | -122.393 | 1360          | 5000       |
 | 1954400510 | 2/18/2015  | 510000.0 | 3        | 2.00      | 1680        | 8080     | 1.0    | 0.0        | 0.0  | 3         | 8     | 1680       | 0.0           | 1987     | 0.0          | 98074   | 47.6168 | -122.045 | 1800          | 7503       |
-```
 
 
 Initially upon first observation of the head, there are several things that begin to dictate what next steps might be. There are 'NaN's, or not a number values, in the dataset, a lot of the data even though it seems to an integer or float value is actually categorical in nature, and the years in the 'yr_renovated' and 'floor' columns have floats, but need to be integers. These three things are going to be considered throughout the course of this project, beginning with the 'NaN' values.
