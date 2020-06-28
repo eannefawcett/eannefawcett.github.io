@@ -11,9 +11,11 @@ Data Science is an art. Each decision in the process can lead to different resul
 
 In this first step, the data scientist begins to get a taste for what future work might be in store for a project. It starts with a business case, a question, a real world problem. Once the type of data to address the beginning case, question, problem is established, then it's time to acquire the dataset. For this discussion, I will be using the King's County Seattle Housing Prices dataset. It can be found [here][link1].
 
-```import pandas as pd
-df = pd.read_csv('kc_house_data.csv', index_col=0)
 ```
+```
+import pandas as pd
+df = pd.read_csv('kc_house_data.csv', index_col=0)
+
 
 | id         | date       | price    | bedrooms | bathrooms | sqft_living | sqft_lot | floors | waterfront | view | condition | grade | sqft_above | sqft_basement | yr_built | yr_renovated | zipcode | lat     | long     | sqft_living15 | sqft_lot15 |
 |------------|------------|----------|----------|-----------|-------------|----------|--------|------------|------|-----------|-------|------------|---------------|----------|--------------|---------|---------|----------|---------------|------------|
