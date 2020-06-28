@@ -11,10 +11,9 @@ Data Science is an art. Each decision in the process can lead to different resul
 
 In this first step, the data scientist begins to get a taste for what future work might be in store for a project. It starts with a business case, a question, a real world problem. Once the type of data to address the beginning case, question, problem is established, then it's time to acquire the dataset. For this discussion, I will be using the King's County Seattle Housing Prices dataset. It can be found [here][link1].
 
-```
-```
-import pandas as pd
+```import pandas as pd
 df = pd.read_csv('kc_house_data.csv', index_col=0)
+```
 
 
 | id         | date       | price    | bedrooms | bathrooms | sqft_living | sqft_lot | floors | waterfront | view | condition | grade | sqft_above | sqft_basement | yr_built | yr_renovated | zipcode | lat     | long     | sqft_living15 | sqft_lot15 |
@@ -24,6 +23,7 @@ df = pd.read_csv('kc_house_data.csv', index_col=0)
 | 5631500400 | 2/25/2015  | 180000.0 | 2        | 1.00      | 770         | 10000    | 1.0    | 0.0        | 0.0  | 3         | 6     | 770        | 0.0           | 1933     | NaN          | 98028   | 47.7379 | -122.233 | 2720          | 8062       |
 | 2487200875 | 12/9/2014  | 604000.0 | 4        | 3.00      | 1960        | 5000     | 1.0    | 0.0        | 0.0  | 5         | 7     | 1050       | 910.0         | 1965     | 0.0          | 98136   | 47.5208 | -122.393 | 1360          | 5000       |
 | 1954400510 | 2/18/2015  | 510000.0 | 3        | 2.00      | 1680        | 8080     | 1.0    | 0.0        | 0.0  | 3         | 8     | 1680       | 0.0           | 1987     | 0.0          | 98074   | 47.6168 | -122.045 | 1800          | 7503       |
+
 
 Initially upon first observation of the head, there are several things that begin to dictate what next steps might be. There are 'NaN's, or not a number values, in the dataset, a lot of the data even though it seems to an integer or float value is actually categorical in nature, and the years in the 'yr_renovated' and 'floor' columns have floats, but need to be integers. These three things are going to be considered throughout the course of this project, beginning with the 'NaN' values.
 
@@ -37,26 +37,47 @@ df.isna().sum()
 ```
 
 date                0
+
 price               0
+
 bedrooms            0
+
 bathrooms           0
+
 sqft_living         0
+
 sqft_lot            0
+
 floors              0
+
 waterfront       2376
+
 view               63
+
 condition           0
+
 grade               0
+
 sqft_above          0
+
 sqft_basement       0
+
 yr_built            0
+
 yr_renovated     3842
+
 zipcode             0
+
 lat                 0
+
 long                0
+
 sqft_living15       0
+
 sqft_lot15          0
+
 dtype: int64
+
 
 The three variables 'waterfront', 'view', and 'yr_renovated' have 'NaN' values. However, addressing these values can be done in various ways. While dropping the rows of data containing the 'NaN' values is an option, that means loosing potentially useful data. For this dataset, the number of 'NaN's for 'waterfront' represents 11% of the dataset, the number of 'NaN's for 'view' represents 0.29% of the dataset, and the number of 'NaN's for 'yr_renovated' represents over 17% of the dataset. This can be found with the following code:
 
@@ -81,30 +102,55 @@ Now that this big concern established from viewing the head in the obtain step i
 df.info()
 ```
 <class 'pandas.core.frame.DataFrame'>
+
 Int64Index: 21534 entries, 7129300520 to 1523300157
+
 Data columns (total 20 columns):
+
 date             21534 non-null object
+
 price            21534 non-null float64
+
 bedrooms         21534 non-null int64
+
 bathrooms        21534 non-null float64
+
 sqft_living      21534 non-null int64
+
 sqft_lot         21534 non-null int64
+
 floors           21534 non-null float64
+
 waterfront       21534 non-null float64
+
 view             21534 non-null float64
+
 condition        21534 non-null int64
+
 grade            21534 non-null int64
+
 sqft_above       21534 non-null int64
+
 sqft_basement    21534 non-null object
+
 yr_built         21534 non-null int64
+
 yr_renovated     21534 non-null float64
+
 zipcode          21534 non-null int64
+
 lat              21534 non-null float64
+
 long             21534 non-null float64
+
 sqft_living15    21534 non-null int64
+
 sqft_lot15       21534 non-null int64
+
 dtypes: float64(8), int64(10), object(2)
+
 memory usage: 3.5+ MB
+
 
 Here, what we're looking for is the data types. There are two types of data in this dataset that have object data. Object data often contains a mixture of integer and string values, and as such cannot be evaluated or interacted with by the methods for either category. Object data needs to be addressed before moving forward. Everything else is either an integer or a float, but from our initial look at the data, some of these might actually be better suited as category data.
 
