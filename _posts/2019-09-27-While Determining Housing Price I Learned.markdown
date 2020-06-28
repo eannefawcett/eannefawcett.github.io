@@ -35,48 +35,30 @@ First, let's consider 'NaN' values. To see how many values are present in the en
 ```
 df.isna().sum()
 ```
-
+```
 date                0
-
 price               0
-
 bedrooms            0
-
 bathrooms           0
-
 sqft_living         0
-
 sqft_lot            0
-
 floors              0
-
 waterfront       2376
-
 view               63
-
 condition           0
-
 grade               0
-
 sqft_above          0
-
 sqft_basement       0
-
 yr_built            0
-
 yr_renovated     3842
-
 zipcode             0
-
 lat                 0
-
 long                0
-
 sqft_living15       0
-
 sqft_lot15          0
-
 dtype: int64
+```
+
 
 
 The three variables 'waterfront', 'view', and 'yr_renovated' have 'NaN' values. However, addressing these values can be done in various ways. While dropping the rows of data containing the 'NaN' values is an option, that means loosing potentially useful data. For this dataset, the number of 'NaN's for 'waterfront' represents 11% of the dataset, the number of 'NaN's for 'view' represents 0.29% of the dataset, and the number of 'NaN's for 'yr_renovated' represents over 17% of the dataset. This can be found with the following code:
