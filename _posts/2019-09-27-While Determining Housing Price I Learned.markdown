@@ -33,6 +33,7 @@ First, let's consider 'NaN' values. To see how many values are present in the en
 ```
 df.isna().sum()
 ```
+
 date                0
 price               0
 bedrooms            0
