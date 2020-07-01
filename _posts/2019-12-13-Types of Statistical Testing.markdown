@@ -30,14 +30,15 @@ In this use case, the diverse Chi Squared test is advantageous.
 
 For this particular circumstance, a Fisher's Exact test can be used if the samples are unrelated and in two groups. If the samples are paired, then a McNemar's test can be used.
 
-# Confirmation Testing
+Completing one of these types of testing is the beginning of what a machine learning model looks like. The results of these tests in the form of a p-value can tell us whether or not to move on to developing model architecture. 
 
-To confirm the null hypothesis rejections in the four categories of testing above, various tests that match each category may be run to support the findings.
 
-For continuous and parametric, if you used a regression analysis, there is an associated r-squared value. This value determines how close the generated line is close to a perfect line, which would perfectly represent a relationship. The maximum value for r-squared is 1.0. The closer r-squared is to 1.0, the more representative the generated equation represents the relationship. R-squared values can be used to determine how much of a 'good fit' is present. The r-squared value is the Pearson's Correlation coefficient squared. If you used a Pearson's R test originally, checking out the z-score might not be a bad idea. Finding out what an acceptable correlation coefficient is based on a normal distribution and the number or variables present, also known as degrees of freedom, and comparing that value to the calculated correlation coefficient can be an indicator or confirmation of rejecting the null hypothesis.
+# References
 
-# Interpretation Tools
+These websites contain images that I like to use as reference to remind me of all of the above. I referenced them while writing up this article.
 
-## Cohen's D
+[1)][link1] Osborne Nishimura Lab Summer 2019 Statistics Workshop
+[2)][link2] Dr. Robert Gerwien's A Painless Guide to Statistics
 
-## Power
+[link1]: https://onishlab.colostate.edu/summer-statistics-workshop-2019/
+[link2]: http://abacus.bates.edu/~ganderso/biology/resources/statistics.html
