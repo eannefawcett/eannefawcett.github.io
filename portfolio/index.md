@@ -13,6 +13,8 @@ Hello, and welcome to my portfolio landing page. Here you will find links and sh
 
 ### Flatiron School
 
+- [Certificate of Completion for Data Science](files\Online June 2020 Certs_Part28.pdf)
+
 ## 2019
 
 ### Sunnyvale High School
