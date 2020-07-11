@@ -5,7 +5,7 @@ external-url: https://eannefawcett.github.io/portfolio
 paginator: Portfolio
 ---
 
-Hello, and welcome to my portfolio landing page. Here you will find links and short descriptions to work that I have completed. It is organized first by date, and then by organization the task was completed for. Some of the works here will manifest similarly to a blog post about the task, others will be original content, and some might require an additional inquiry to view to protect the content.
+Hello, and welcome to my portfolio landing page. Here you will find links and short descriptions to work that I have completed. It is organized first by date, and then by organization the task was completed for. Some of the works here will manifest similarly to a blog post about the task, others will be original content, and some have protected information, available upon reviewed request.
 
 # 2020
 
