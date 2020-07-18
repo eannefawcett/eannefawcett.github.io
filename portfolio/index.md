@@ -14,6 +14,8 @@ Hello, and welcome to my portfolio landing page. Here you will find links and sh
 - [Product Recommendation][e9-research]
 This project explored collected data and used statistical testing to make a product recommendation based on predefined criteria.
 
+- [Assay Development for Developed Product][e9_etching_assay]
+
 ### Flatiron School
 
 - [Certificate of Completion for Data Science](files\Online June 2020 Certs_Part28.pdf)
@@ -80,3 +82,4 @@ This project visually explores the dataset, and ultimately finds what really mat
 [e9-research]: https://github.com/eannefawcett/e9-Treatments-Product-Analysis
 [sql-explore]: https://github.com/eannefawcett/Northwind-Database-Exploration
 [eda-exploration]: https://github.com/eannefawcett/King-County-Seattle-Housing
+[e9_etching_assay]: https://eannefawcett.github.io/portfolio/2020/07/13/e9-Treatments-Etching-Assay-Proposal
