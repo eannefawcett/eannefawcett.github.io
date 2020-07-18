@@ -10,6 +10,9 @@ Today, I'd like to share a function I wrote in python with you that returns all 
 
 
 
+
+
+
 ```def factors(number):
   '''Finds the all possible factors of the number, and returns a list of potential factors.'''
 
@@ -22,9 +25,12 @@ Today, I'd like to share a function I wrote in python with you that returns all 
     if number%i == 0:
 
       potential_factors.append(i)
-      
+
   return potential_factors
 ```
+
+
+
 
 
 
