@@ -13,19 +13,14 @@ Today, I'd like to share a function I wrote in python with you that returns all 
 
 
 
-```def factors(number):
+```
+def factors(number):
   '''Finds the all possible factors of the number, and returns a list of potential factors.'''
-
   divisible_by = range(1, number)
-
   potential_factors = []
-
   for i in divisible_by:
-
     if number%i == 0:
-
       potential_factors.append(i)
-
   return potential_factors
 ```
 
