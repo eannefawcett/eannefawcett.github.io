@@ -15,7 +15,7 @@ The applications of this type of approach would be to compare genetic informatio
 across broad categories, not to identify a sequenced genetic sequence or protein.
 
 First, register your email and project tool with NCBI. This can be done by
-emailing their office at 	eutilities@ncbi.nlm.nih.gov with the following information:
+emailing their office at	eutilities@ncbi.nlm.nih.gov with the following information:
 - email
 - tool.
 
@@ -32,7 +32,7 @@ you are registered for use.
 # API
 
 Second, while you are waiting to hear back, you can register for an API key after
-creating an NCBI account. This API key will allow you to access the faster.
+creating an NCBI account. This API key will allow you an increase in number of calls per second.
 
 # Data Usage Restraints
 
