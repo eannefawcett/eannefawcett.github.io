@@ -1,7 +1,7 @@
-name: Elizabeth Fawcett
+name: Elizabeth Anne Fawcett
 url: https://eannefawcett.github.io/
 description: Classically Trained for Modern Problems -- Technical and Non-technical Talk
-paginator: Elizabeth Fawcett Blog
+paginator: eannefawcett content
 
 permalink: /:year/:month/:day/:title/
 paginate: 25
