@@ -87,4 +87,4 @@ This project visually explores the dataset, and ultimately finds what really mat
 [sql-explore]: https://github.com/eannefawcett/Northwind-Database-Exploration
 [eda-exploration]: https://github.com/eannefawcett/King-County-Seattle-Housing
 [e9_etching_assay]: https://eannefawcett.github.io/portfolio/2020/07/13/e9-Treatments-Etching-Assay-Proposal
-[e9_chemical_storage]: https://eannefawcett.github.io/portfolio/2020/07/21/e9-Treatments-Chemical-Storage
+[e9_chemical_storage]: https://eannefawcett.github.io/2020/07/21/e9-Treatments-Chemical-Storage/
