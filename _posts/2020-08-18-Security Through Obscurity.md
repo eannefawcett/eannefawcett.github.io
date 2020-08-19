@@ -8,7 +8,7 @@ paginator: Security Through Obscurity
 
 The question of security of data and models comes up frequently in the world of data science. The way that people talk about security can verge on superstition.
 
-<img src='../images/security_advice.png' alt='https://xkcd.com/1820/'>
+<img src='/images/security_advice.png' alt='https://xkcd.com/1820/'>
 
 
 Today, I'm here to talk about one method to secure blog posts called "Security Through Obscurity". The general idea is you don't know what you know. For instance, let's say that you have a blog on a little trafficked website, but that is under the online handle that you use for everything, and you want to secure certain posts more than other to protect certain types of intellectual property.
@@ -39,19 +39,32 @@ This is found in the .yml file for this website. This is relatively predictable,
 This randomizer could be a string of text and numbers that is a random length. For instance, I just used [random.org][link1] to generate 'MYXprOFQeELrgrViadeM'. If there were a part of my website that I wanted to personally approve people to view, I could add this randomizer in the header of the post while writing. The header for this post is:
 
 layout: post
+
 title:  "Security Through Obscurity"
+
 date:   2020-08-18 20:27:37
+
 categories: non-technical, security
+
 paginator: Security Through Obscurity
+
+
 
 To add the randomizer, I would modify the header to look like this:
 
 layout: post
+
 title:  "Security Through Obscurity"
+
 date:   2020-08-18 20:27:37
+
 categories: non-technical, security
+
 paginator: Security Through Obscurity
+
 radomizer: MYXprOFQeELrgrViadeM
+
+
 
 Additionally, the randomizer would need to be added the file name after the title.
 
