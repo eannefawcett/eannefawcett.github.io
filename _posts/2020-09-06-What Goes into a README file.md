@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What Goes into a Data Science README file"
-date:   2020-08-26 21:26:13
+date:   2020-09-06 21:26:13
 categories: technical, data science
 paginator: What Goes into a Data Science README file
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Letting Your File Names Work for You: Using Python's Pillow Library to Iterate Over File of Images"
-date:   2020-08-26 21:26:13
+date:   2020-09-29 21:26:13
 categories: technical, data science
 paginator: Letting Your File Names Work for You
 ---
