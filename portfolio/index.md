@@ -9,6 +9,15 @@ Hello, and welcome to my portfolio landing page. Here you will find links and sh
 
 # 2020
 
+### Personal Projects
+
+- [Explore Quantum Computing -](/files/Introduction_to_Quantum_Computing.jpg)
+This certificate shows that I have completed two hours in working with Quantum Computing from [Cloud x Lab][cloudxlab].
+- [Classification of Drugs Under Fluorescence Microscopy Project][fluorescence], and [Blog Post - ][fluorescence-blog]
+This project is exploring image data with drugs that are carried on fluorescent nanotubes. The goal is classify whether or not there are drugs present in the image. Once this goal is reached, then a potential drug count can be conducted and information about drug absorption and efficacy might be obtained with further modeling.
+- [Job Hunt Tool Project -][job-hunt-tool]
+This project is a tool to gain experience in creating and maintaining a MongoDB database.
+
 ### e9 Treatments
 
 - [Product Recommendation -][e9-research]
@@ -21,7 +30,7 @@ This post explains the process used to update a chemical stoage system.
 ### Flatiron School
 
 - [Certificate of Completion for Data Science -](/files/Online_June_2020_Certs_Part28.pdf)
-This certificate shows that I have over 500 hours investing in learning about data science and machine learning from Flatiron School.
+This certificate shows that I have over 500 hours invested in learning about data science and machine learning from Flatiron School.
 - [Lexile Determination Project][lexile-determination], [Application][lexile-determination-app], and [Video -][lexile-determination-video]
 This project uses NLP to classify a text's lexile level.
 - [Classifying Gene Locus by Gene Composition Project][gene-classification] and [Video -][gene-classification-video]
@@ -111,3 +120,7 @@ This video was created for my forensic science students after the completion of 
 [sql-explore-video]: https://youtu.be/uCQVLhhZJ2g
 [eda-exploration-video]: https://youtu.be/hvlKufrrFgs
 [FWGMC-color-video]: https://youtu.be/7-GRj9v3izM
+[cloudxlab]: https://cloudxlab.com/
+[fluorescence]: https://github.com/eannefawcett/Classification-of-Drugs-Under-Fluorescence-Microscopy
+[fluorescence-blog]: https://eannefawcett.github.io/2020/08/06/Proposal-for-the-fluorescent-detection-of-amoxicillin/
+[job-hunt-tool]: https://github.com/eannefawcett/Job-Hunt-Tool
