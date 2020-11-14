@@ -6,7 +6,7 @@ categories: technical, data science
 paginator: Machine Learning Demystified
 ---
 
-There's a lot of terminology out there being thrown around surrounding machine learning, deep learning, and artificial intelligence. They are different things and mean different things. I would like to share today what my experience with the three different terms and expound on the differences between the three tools.
+There's a lot of terminology out there being thrown around surrounding machine learning, deep learning, and artificial intelligence. They are different things and mean different things. I would like to share today what my experience with machine learning and discuss some of the tools used in machine learning.
 
 # Machine Learning
 
