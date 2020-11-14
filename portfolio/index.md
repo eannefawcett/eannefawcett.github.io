@@ -44,6 +44,13 @@ This project makes recommendations to increase revenue based on two factors incr
 
 ### Sunnyvale High School
 
+- High Altitude Balloon Project
+
+- [The American Rocketry Challenge][tarc_rules]
+This challenge was completed by two teams of ten students after school hours as an extra curricular activity. Specifically I facilitated build sessions with a rocketry expert and ordered supplies when they were needed. One team qualified for nationals. I traveled with the team to Virginia and was responsible for making sure that out rocket fuel was waiting for us upon arrival at the hotel. Our team was [awarded][tarc_results] the title of Best Craftsmanship in the Rocket Building Competition.
+
+- Escape Room
+
 ### Flatiron School
 
 - [King County Seattle Housing][eda-exploration] and [Video -][eda-exploration-video]
@@ -124,3 +131,5 @@ This video was created for my forensic science students after the completion of 
 [fluorescence]: https://github.com/eannefawcett/Classification-of-Drugs-Under-Fluorescence-Microscopy
 [fluorescence-blog]: https://eannefawcett.github.io/2020/08/06/Proposal-for-the-fluorescent-detection-of-amoxicillin/
 [job-hunt-tool]: https://github.com/eannefawcett/Job-Hunt-Tool
+[tarc_rules]: http://www.nar.org/wp-content/uploads/2018/10/TARC-2019-Handbook.pdf
+[tarc_results]: https://rocketcontest.org/result/2019/
