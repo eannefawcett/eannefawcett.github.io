@@ -3,7 +3,7 @@ layout: post
 title:  "Machine Learning Demystified"
 date:   2020-11-11 14:27:43
 categories: technical, data science
-paginator: Machine Learning Demystified
+paginator: Deep Learning Demystified
 ---
 
 There's a lot of terminology out there being thrown around surrounding machine learning, deep learning, and artificial intelligence. They are different things and mean different things. I would like to share today what my experience with deep learning and discuss some of its applications.
@@ -26,16 +26,23 @@ For the generative adversarial network (GAN), the input is less important than t
 
 ## Nodes
 
+Nodes exist within neural network layers and are like bins that the data are sorted into. The number of nodes in hidden layers is typically arbitrarily assigned by the user, the number of nodes for the input layer is equal to the number of inputs, and the number of nodes in the output layer is dependent on the type of neural network. Most node schema involve numbers related to the power of two, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, as a kind of homage to computer language. This is not a requirement for numbers of nodes, but does help provide a useful reference when working with data. For instance if I have a dataset with 7500 data points, then a larger number of nodes to start might be appropriate, so 1024 or even 2048. And depending on the output or complexity of the dataset, the number of nodes can be stretched or reduced as the model progresses through the present layers. A neural network with randomly assign each piece of data arbitrarily to a node, and relationships are calculated for. Nodes function as a sorting structure for the neural network. This sorting occurs according to the parameters of the layer.
 
 ## Edges
 
+Edges the hand off point between the nodes from layer to layer. They are a calculation, or weight, of how likely it is for each piece of data to be sorted into the next node. Each piece of data is evaluated for each node. A great picture of the relationships between edges and nodes can be found [here][link4]. In the image, edges are the arrows, nodes are the circles. If nodes are like organs, the an edge is like the circulatory system. Edges connect things. 
 
 ## Hidden Layers
 
 
+
 ## Output Layer
 
+
+
 # A Note on Computer Vision
+
+
 
 # Concluding Thoughts
 
@@ -44,3 +51,4 @@ For the generative adversarial network (GAN), the input is less important than t
 [link1]: https://eannefawcett.github.io/2020/10/26/Machine-Learning-Demystified/
 [link2]: https://towardsdatascience.com/recurrent-neural-networks-d4642c9bc7ce
 [link3]: https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/
+[link4]: https://www.researchgate.net/profile/Brian_Spears/publication/322048911/figure/fig2/AS:667820681592843@1536232266981/Neural-networks-can-be-represented-as-graphs-The-edges-arrows-represent-the-weights.png
