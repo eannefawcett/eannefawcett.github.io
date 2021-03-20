@@ -6,11 +6,11 @@ categories: technical, data science
 paginator: Machine Learning Demystified
 ---
 
-There's a lot of terminology out there being thrown around surrounding machine learning, deep learning, and artificial intelligence. They are different things and mean different things. I would like to share today what my experience with machine learning and discuss some of the tools used in machine learning.
+There are a lot of terms out there being thrown around surrounding machine learning, deep learning, and artificial intelligence. They are different things and mean different things, but overlap and are related. I would like to share today what my experience with machine learning has been and discuss some of the tools used in machine learning.
 
 # Machine Learning
 
-First, let's discuss machine learning. Machine learning can be used with any function that can have a loss or gain function calculated. There are two primary types of machine learning, supervised and unsupervised learning. Both types use a loss or gain function to "learn". Additionally, machine learning does not require a neural network, but can make use of one.
+First, machine learning can be used with any mathematical function that can have a loss or gain function calculated. This means that there could be multiple correct solutions to the problem at hand. Loss and gain will be defined below. There are two primary types of machine learning, supervised and unsupervised learning. Both types use a loss or gain function to "learn". Both supervised and unsupervised learning will be discussed in further detail below. Additionally, machine learning does not require a neural network, but can make use of one.
 
 ## Loss
 
@@ -55,13 +55,13 @@ Euclidian distance is based on the Pythagorean theorem, which is probably famili
 <br>
 <br>
 
-Another way to view Euclidian distance is as the shortest way to get from one point to another, or 'as the crow flies'. The primary difference between Manhattan distance and Euclidian distance is that Manhattan can only be used for 2D spaces, whereas Euclidian distance can be used for 3D space, as seen in Figure 3.
+Another way to view Euclidian distance is as the shortest way to get from one point to another, or 'as the crow flies'. The primary difference between Manhattan distance and Euclidian distance is that Manhattan can only be used for 2D spaces, whereas Euclidian distance can be used for 3D space, as seen in Figure 3. This means that Euclidian distance is more flexible and can be used for more complex features.
 
 <img src='../images/Euclidean_distance_3d.png' alt='3D Euclidian distance calculation, gnu license'>
 <br>
 <br>
 
-In this image all of the p points are referencing the lower point, just on the three different axes, x, in red, y, in green, and z, in blue. Just as all of the q points are referencing the higher point.
+In this image all of the p points are referencing the lower point, just on the three different axes, x, in red, y, in green, and z, in blue. Just as all of the q points are referencing the higher point. This images shows how complex loss functions can be to calculate by hand. In using programming, specifically in this case machine learning, the optimal solution can be found more quickly.
 
 ### Minkowski Distance
 
@@ -75,15 +75,15 @@ minkowski_distance = np.power((length_side_1 + length_side_2 + ... length_side_n
 
 The generalization can be seen in the exponent and the second value in the np.power() function. One caveat to the Minkowski distance is that all values must be positive. That makes it particularly useful when data has been scaled. When data is scaled that normed vector space is created.
 
-Generally, loss is determined by the distance from the intended target to the calculated for variable. The keyword for loss is distance. The maximization or minimization of loss allows for "learning" to occur.
+Generally, loss is determined by the distance from the intended target to the calculated for variable. The keyword for loss is distance. The maximization or minimization of loss as various potentially correct solutions are tried out allows for "learning" to occur.
 
 ## Gain
 
-Gain is a little bit different from loss. There are different types of gain that can be calculated for. This category encompasses information gain, entropy, and the Gini index, otherwise known as the Gini penalty. All of these different measures discuss the integrity of the target variable.
+Gain is a little bit different from loss. There are different types of gain that can be calculated for. This category encompasses information gain, entropy, and the Gini index, otherwise known as the Gini penalty. All of these different measures discuss the integrity of the target variable. The target variable is the variable of interest or the variable to be solved for.
 
 ### Entropy
 
-Entropy, in this case Shannon's version of it for the chemist's out there, is a measure of certainty or uncertainty, and is the measure of the information able to be contained in a variable. Measuring entropy before and after a calculation can allow for "learning" to take place by selecting for entropy to be maximized or minimized.
+Entropy, in this case Shannon's version of it, for the chemist's out there, is a measure of certainty or uncertainty, and is the measure of the information able to be contained in a variable. Measuring entropy before and after a calculation can allow for "learning" to take place by selecting for entropy to be maximized or minimized.
 
 Entropy can be calculated by using the following function:
 
@@ -153,16 +153,16 @@ def gini(pi): # where pi is a list of class distributions
 
 
 
-From this function, you can see that there are some similarities between the Gini index and entropy. The both discuss integrity of the calculated values, as does information gain for the class.
+From this function, you can see that there are some similarities between the Gini index and entropy. They both discuss integrity of the calculated values, as does information gain for the class.
 
 Both loss and gain can work together to assist in the "learning" that happens when training a machine learning model. Selecting which type of both to use can have a large impact on the model created in the end. Each type of loss and gain can lend itself to either supervised or unsupervised learning, largely depending on the data structure itself or what the goals of the developed algorithm are.
 
 ## Supervised Learning
 
-In supervised learning the target variable is known before starting the machine learning process, otherwise known as having labeled data. This target variable and the calculated variable can be directly compared and use any of the distance types in loss for comparison. And any of the types of gain can be used to optimize performance.
+In supervised learning the target variable is known before starting the machine learning process, otherwise known as having labeled data. This means that the target variable and the calculated variable can be directly compared and use any of the distance types in loss for comparison. Also any type of gain can be used to optimize performance.
 
 ## Unsupervised Learning
 
-In unsupervised learning, one of two things happens before any calculations are do to improve an algorithm. The data is either split into different clusters using a process called k-means or is reduced in dimensionality by eliminating features that don't contribute information to the dataset. Each point of data is now associated with a cluster or dimension reduction, and this serves as the "label", or the target variable. Once this is done, then the process for unsupervised learning proceeds similarly to the process for supervised learning in that any of the loss or gain types can be used to increase the accuracy of the model.
+In unsupervised learning, one of two things needs to happen before any calculations are done to improve an algorithm. The data is either split into different clusters using a process called k-means or is reduced in dimensionality by eliminating features that don't contribute information to the dataset. Each point of data is now associated with a cluster or dimension reduction, and this serves as the "label", or the target variable. Once this is done, then the process for unsupervised learning proceeds similarly to the process for supervised learning in that any of the loss or gain types can be used to increase the accuracy of the model.
 
-So, machine learning uses loss and gain to improve accuracy by either increasing or decreasing the selected value each time the algorithm is run.
+So, machine learning uses loss and gain functions as mathematical tools to improve accuracy by either increasing or decreasing the selected value each time the algorithm is run.
